@@ -275,6 +275,7 @@ img {
 
 .backdrop {
   position: fixed;
+  height: 100%;
   top: 0;
   left: 0;
 
@@ -416,10 +417,10 @@ img {
 .works-label {
   position: absolute;
   display: block;
-  width: 370px;
-  height: 70px;
+  width: 100%;
   background: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
+  padding-bottom: 27px;
   bottom: 0;
   left: 0;
 }
@@ -885,7 +886,8 @@ img {
   color: #ffffff;
 }
 
-.card-portfolio:hover .box-overlay {
+.works-link:hover .box-overlay,
+.works-link:focus .box-overlay {
   transform: translateY(-100%);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
