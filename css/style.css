@@ -877,6 +877,7 @@ img {
   line-height: 1.155;
   letter-spacing: 0.03em;
   padding: 63px 24px 63px 24px;
+  color: #ffffff;
 }
 
 .card-portfolio:hover .box-overlay {
